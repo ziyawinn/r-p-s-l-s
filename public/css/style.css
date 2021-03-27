@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  background-color:rgb(80, 197, 115);
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4em;
+  color:black;
+  text-shadow: 5px 1px 2px white;
+}
+ span{
+  font-size: 3em;
+  text-shadow: 5px 1px 2px green;
+}
+
+#text{
+  font-size: 1em;
+}
+
+#player-hand{
+  color: rgb(224, 31, 31);
+  font-size: 5rem;
+
+}
+
+#bot-hand{
+  color: gold;
+ 
+  font-size: 5rem;
+}
+
+#result{
+margin: 0;
+color: rgb(5, 2, 19);
+font-weight: 700;
+border: 7px bisque;
+height: 20%;
+width: 100%;
+display: center;
+background-color: gold;
+}
+
+p{
+  font-size: 1rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#result {
+  font-size: 3.5rem;
+  font-family: 'Bangers', cursive;
+  margin-bottom: 40px;
+}
+.buttons{
+  margin-top: 5em;
+}
+
+button{
+  width: 18%;
+  font-size: 1.5rem;
+  border-radius: 150px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+button:focus{
+  outline:none;
+}
+
+.animated-button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none !important;
+  transition: transform 250ms;
+  transition-timing-function: ease-out;
+}
+
+.animated-button:hover {
+transform: translateY(-15px);
+}
+
+.chosen {
+  border: 10px solid red;
+  background-color:gold;
+}
+img{
+
+height: 75%;
+width: 150px;
+
+
+}
